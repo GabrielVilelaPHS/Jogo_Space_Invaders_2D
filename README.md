@@ -14,7 +14,7 @@ Recriando o jogo Space Invaders lançado originalmente em 1978. O jogo atualment
 ## Caracteríticas
 Entre os tiros, foi colocado um tempo em milisegundos de espera, limitando a quantidade de balas por tempo. O tiro só afeta um alien por vez e também é destruido caso colida com a bala do inimigo ou barreira aliada. A barreira por sua vez, tem uma durabilidade total, ela desapare ao levar 4 tiros do inimigo ou colidir com um alien. Os tiros do inimigo são gerados de forma aleatória a cada segundo através do sorteio de qual alien irá atirar no momento.
 
-Os inimigos são gerados de forma pocedural em um bloco linhado através de um gameobjet. Para cada inimigo morto a velocidade de deslocamento do inimigo é aumentada em 0.1s e o contador "score" é aumentado. Caso o alien branco seja morto, é acrecestado no score 10 pontos, se for a nave vermelha, o valor adiconado é 100. Após o jogador ser morto, o score atual é comparado ao recorde existente, caso o score seja maior que o recorde, recorde terá seu valor substituído. 
+Os inimigos são gerados de forma pocedural em um bloco linhado através de um gameobjet. Para cada inimigo morto a velocidade de deslocamento do inimigo é aumentada em 0.1s e o contador "score" é aumentado. Caso o alien branco seja morto, é acrecestado no score 10 pontos, se for a nave vermelha, o valor adiconado é 100 pontos. Após o jogador ser morto, o score atual é comparado ao recorde existente, caso o score seja maior que o recorde, recorde terá seu valor substituído. 
 
 A cena é reiniciada caso: 
 - A nave leve um tiro;

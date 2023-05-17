@@ -5,10 +5,10 @@
 Recriando o jogo Space Invaders lançado originalmente em 1978. O jogo atualmente consiste em uma cena com diversos inimigos valendo pontos, barreiras e a própria nave do jogador. Para a criação deste jogo foi utilizado a engine Unity.
 
 ## Jogabilidade
-- (tecla A | setinha esquerda): mover nave para a esquerda;
-- (tecla D | setinha direita): mover nave para a direita;
-- (tecla W | setinha para cima): mover nave para cima;
-- (tecla S | setinha para baixo): mover nave para baixo;
+- (tecla A | setinha esquerda): move a nave para a esquerda;
+- (tecla D | setinha direita): move a nave para a direita;
+- (tecla W | setinha para cima): move a nave para cima;
+- (tecla S | setinha para baixo): move a nave para baixo;
 - (tecla espaço | click do mouse): atira balas;
 
 ## Caracteríticas
